@@ -20,7 +20,7 @@ let app = App.instance();
 let app1 = App.instance();
 console.log(app === app1);
 
-/* e闭包实现单例模式  */
+/* 闭包实现单例模式  */
 function Person() {}
 
 Person.getInstance = (function () {

@@ -61,6 +61,9 @@ class PubPush {
       callback.apply(this, arg);
     };
     this.on(name, on);
+
+    // this.on(name, callback);
+    // this.off(name);
   }
   off(name: string, callback?: Function) {
     if (!this.subscribers.hasOwnProperty(name)) return;

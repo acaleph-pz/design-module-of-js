@@ -1,0 +1,19 @@
+{
+  "name": "design_model",
+  "version": "1.0.0",
+  "description": "设计模式",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "webpack server --config ./webpack.config.js"
+  },
+  "author": "zzw",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
